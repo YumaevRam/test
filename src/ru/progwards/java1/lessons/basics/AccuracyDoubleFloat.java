@@ -1,16 +1,9 @@
 package ru.progwards.java1.lessons.basics;
 
-import java.sql.SQLOutput;
-
 public class AccuracyDoubleFloat {
 
-
-
     public static double volumeBallDouble(double radius){
-       //  4/3πR3
-
-
-        return 4/(3*3.14*Math.pow(radius,3));
+         return 4/(3*3.14*Math.pow(radius,3));
     }
 
     public static float volumeBallFloat(float radius){
@@ -25,6 +18,6 @@ public class AccuracyDoubleFloat {
         double r = 6371.2;
         System.out.println(volumeBallDouble(r));
         System.out.println(volumeBallFloat((float)r));
-        System.out.println(calculateAccuracy(6371.2));
+        System.out.println(calculateAccuracy(r));
     }
 }

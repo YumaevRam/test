@@ -11,7 +11,6 @@ public class ReverseDigits {
     }
 
     public static void main(String[] args) {
-
         System.out.println(reverseDigits(576));
     }
 }

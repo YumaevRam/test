@@ -2,8 +2,6 @@ package ru.progwards.java1.lessons.basics;
 
 public class Astronomy {
     public static Double sphereSquare(Double r){
-
-
         Double s = 4*3.14*Math.pow(r,2);
         return s;
     }
@@ -25,11 +23,10 @@ public class Astronomy {
     }
 
     public static void main(String[] args) {
-
-        System.out.println( "Earth - " + earthSquare()+"\n" +
-                            "Mercury - " + mercurySquare()+"\n"+
-                            "Jupiter - "+ jupiterSquare() + "\n"+
-                            "Earth vs Mercury - "+ earthVsMercury() +"\n"+
-                            "Earth vs Jupiter - " + earthVsJupiter());
+        System.out.println( "Earth = " + earthSquare()+"\n"+
+                            "Mercury = " + mercurySquare()+"\n"+
+                            "Jupiter = "+ jupiterSquare()+"\n"+
+                            "Earth vs Mercury = "+ earthVsMercury()+"\n"+
+                            "Earth vs Jupiter = " + earthVsJupiter());
     }
 }
